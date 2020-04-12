@@ -197,7 +197,7 @@ function cities_list_view( $atts ){
 
     function add_new_object($atts){
         global $wpdb;
-        $cities = $wpdb->get_results("select ID, post_title from wp_posts where (post_type = 'city' and
+        $cities = $wpdb->get_results("select ID, post_title from ".$wpdb->prefix."posts where (post_type = 'city' and
                                          post_status='publish') order by post_title ");
         ?>
         <script>
