@@ -1,0 +1,472 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:50:36
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.23                                |7.4.1
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-04-09 22:38:02
+WP VERSION__________: 5.4
+DUP VERSION_________: 1.3.28
+DB__________________: 10.3.16
+DB TABLES___________: 18
+DB ROWS_____________: 512
+DB FILE SIZE________: 1.05MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.1 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1
+DOC ROOT____________: "E:/work/xampp/htdocs/buildings"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/buildings/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200409_buildingscrsmok_969761a7a04c21fc6954_20200409223802_archive.zip"
+SIZE________________: 1.33MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-200409225036-5e8fa6bc76b84-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 116
+    [filename] => E:\work\xampp\htdocs\buildings\20200409_buildingscrsmok_969761a7a04c21fc6954_20200409223802_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2020-04-09 22:50:36
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 10:50:39 - RUNTIME: 3.0560 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:51:17
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.11 -- Build Server: 10.3.16
+FILE SIZE:	dup-database__969761a-09223802.sql (170.42KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[E:/work/xampp/htdocs/buildings/dup-installer/dup-installer-data__969761a-09223802.sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:E:\work\xampp\htdocs\buildings\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	535
+
+wp_actionscheduler_actions: (11)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (31)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (149)
+wp_postmeta: (196)
+wp_posts: (55)
+wp_term_relationships: (11)
+wp_term_taxonomy: (4)
+wp_termmeta: (0)
+wp_terms: (4)
+wp_usermeta: (26)
+wp_users: (1)
+wp_wpforms_tasks_meta: (1)
+Removed '22' cache/transient rows
+
+INSERT DATA RUNTIME: 1.5225 sec.
+STEP-2 COMPLETE @ 10:51:19 - RUNTIME: 1.5354 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:52:16
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "buildingscrsmok"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/storage/ssd2/344/13188344/public_html"
+path_new______________: "E:/work/xampp/htdocs/buildings"
+siteurl_______________: "http://localhost/buildings"
+url_old_______________: "https://buildingscrsmok.000webhostapp.com"
+url_new_______________: "http://localhost/buildings"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "buildings"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: "admin"
+wp_mail_______________: "crsmok@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   149][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   196][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd2/344/13188344/public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  2:"\/storage\/ssd2\/344\/13188344\/public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  3:"%2Fstorage%2Fssd2%2F344%2F13188344%2Fpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  4:"\storage\ssd2\344\13188344\public_html" ==========> "E:/work/xampp/htdocs/buildings"
+	SEARCH  5:"\\storage\\ssd2\\344\\13188344\\public_html" =====> "E:\/work\/xampp\/htdocs\/buildings"
+	SEARCH  6:"%5Cstorage%5Cssd2%5C344%5C13188344%5Cpublic_html" => "E%3A%2Fwork%2Fxampp%2Fhtdocs%2Fbuildings"
+	SEARCH  7:"//buildingscrsmok.000webhostapp.com" =============> "//localhost/buildings"
+	SEARCH  8:"\/\/buildingscrsmok.000webhostapp.com" ===========> "\/\/localhost\/buildings"
+	SEARCH  9:"%2F%2Fbuildingscrsmok.000webhostapp.com" =========> "%2F%2Flocalhost%2Fbuildings"
+	SEARCH 10:"https://localhost/buildings" =====================> "http://localhost/buildings"
+	SEARCH 11:"https:\/\/localhost\/buildings" ==================> "http:\/\/localhost\/buildings"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fbuildings" =============> "http%3A%2F%2Flocalhost%2Fbuildings"
+--------------------------------------
+SCANNED:	Tables:18 	|	 Rows:492 	|	 Cells:3153 
+UPDATED:	Tables:3 	|	 Rows:60 	|	 Cells:63 
+ERRORS:		0 
+RUNTIME:	0.197300 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+ - Username 'admin' already exists in the database.  Unable to create new account.
+
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""buildings""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__969761a-09223802' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:52:16 - RUNTIME: 0.2595 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] New admin user create error
+	SECTIONS: general
+	LONG MSG: 
+NEW WP-ADMIN USER:
+ - Username 'admin' already exists in the database.  Unable to create new account.
+
+
+====================================
